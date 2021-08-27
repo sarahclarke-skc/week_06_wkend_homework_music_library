@@ -28,21 +28,30 @@
 
                     <div class="form-item">
                         <label for="genre">Genre</label>
-                        <select id="genre"></select>
+                        <select id="genre">
                         <option value="" disabled selected></option>
                         <option value="Rock">Rock</option>
                         <option value="Indie">Indie</option>
                         <option value="Blues">Blues</option>
                         <option value="Hip-Hop">Hip-Hop</option>
                         <option value="Classical">Classical</option>
-
+                        </select>
                     </div>
                 </div>
+                <div class="buttons">
+                    <input type="submit" value="save" id="save-button" class="button">
+                </div>
             </form>
-
-
         </section>
 
+        <section class="body">
+            <h2 id="album-title">My Albums</h2>
+            <ul id="album-list"></ul>
+
+            <div class="buttons">
+                <button class="button" id="delete-button">Delete Album List</button>
+            </div>
+        </section>
 
     </main>
     
