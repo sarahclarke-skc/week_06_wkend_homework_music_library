@@ -15,11 +15,11 @@ const handleNewForm = function(event) {
     const albumListItem = document.createElement('li');
     albumList.appendChild(albumListItem);
 
-    const artist = document.createElement('h2');
+    const artist = document.createElement('h3');
     artist.textContent = event.target.artist.value;
     albumListItem.appendChild(artist);
 
-    const album = document.createElement('h3');
+    const album = document.createElement('h4');
     album.textContent = event.target.album.value;
     albumListItem.appendChild(album);
 

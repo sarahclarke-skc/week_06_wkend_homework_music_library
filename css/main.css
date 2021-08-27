@@ -1,0 +1,64 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   font-size: 25px;
+   background-color: #191414;
+   color: #1DB954;
+}
+
+
+
+header {
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+#album-list-title {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+#form-wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #1DB954;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.button:hover {
+    background-color: #191414
+}
+
+
+.form-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#album-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis:100;
+    padding: 20px;
+    border: 3px #1DB954
+}
