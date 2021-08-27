@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const handleNewForm = function(event) {
     event.preventDefault();
 
-    
+
     const albumList = document.querySelector('#album-list');
     const albumListItem = document.createElement('li');
     albumList.appendChild(albumListItem);
@@ -21,7 +21,7 @@ const handleNewForm = function(event) {
 
     const album = document.createElement('h3');
     album.textContent = event.target.album.value;
-    album.albumListItem.appendChild(album);
+    albumListItem.appendChild(album);
 
     const genre = document.createElement('h4');
     genre.textContent = event.target.genre.value;
