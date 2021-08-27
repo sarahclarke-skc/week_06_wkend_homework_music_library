@@ -13,6 +13,7 @@ const handleNewForm = function(event) {
 
     const albumList = document.querySelector('#album-list');
     const albumListItem = document.createElement('li');
+    albumListItem.classList.add('album-list-item'); //for CSS
     albumList.appendChild(albumListItem);
 
     const artist = document.createElement('h3');
@@ -23,7 +24,7 @@ const handleNewForm = function(event) {
     album.textContent = event.target.album.value;
     albumListItem.appendChild(album);
 
-    const genre = document.createElement('h4');
+    const genre = document.createElement('h5');
     genre.textContent = event.target.genre.value;
     albumListItem.appendChild(genre);
 

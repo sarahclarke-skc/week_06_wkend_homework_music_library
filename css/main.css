@@ -26,6 +26,7 @@ ul {
 }
 
 #form-wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
     
@@ -42,6 +43,7 @@ ul {
     color: white;
     font-size: 20px;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -60,5 +62,37 @@ ul {
     justify-content: space-around;
     flex-basis:100;
     padding: 20px;
-    border: 3px #1DB954
+    margin-left: 20px;
 }
+
+.album-list-item {
+    margin: 1em 1em;
+    border: 3px solid #1DB954;
+    margin: 1em;
+    padding: 1em;
+}
+
+.album-list-item:hover {
+    background-color: white;
+}
+
+
+input[type=text] {
+    padding: 10px;
+    margin-left: 10px;
+    font-family: inherit;
+    color: #191414
+}
+
+.input {
+    border: 2px solid #1DB954;
+}
+
+/* .input:focus-within {
+    background-color: #1DB954;
+} */
+
+label {
+    cursor: pointer;
+}
+
